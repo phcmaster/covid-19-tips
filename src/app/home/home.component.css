@@ -1,0 +1,58 @@
+/* line text */
+
+.line {
+    position: relative;
+    top: 50%;
+    width: 16em;
+    margin: 0 auto;
+    border-right: 1px solid rgba(255, 255, 255, 0.65);
+    font-size: 400%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-20%);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Animation */
+
+.anim-typewriter {
+    animation: typewriter 2s steps(35) 1s 1 normal both, blinkTextCursor 600ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 5em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.65);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.card-tips {
+    width: 220px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card-phrase {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: black;
+}
+.flip-card:hover .flip-card-inner {
+    
+  }
