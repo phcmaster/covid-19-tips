@@ -1,0 +1,7 @@
+runtime: nodejs
+env: flex
+
+runtime_config:
+  document_root: .
+
+service: covid-19

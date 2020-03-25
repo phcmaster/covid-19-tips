@@ -30,7 +30,6 @@
             "scripts": [
               "./node_modules/jquery/dist/jquery.js",
               "./node_modules/bootstrap/dist/js/bootstrap.js"
-
             ]
           },
           "configurations": {
@@ -64,6 +63,9 @@
               ]
             }
           }
+        },
+        "resolutions": {
+          "@babel/preset-env": "7.8.0"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
@@ -125,6 +127,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "covid19Tips"
 }
