@@ -64,9 +64,6 @@
             }
           }
         },
-        "resolutions": {
-          "@babel/preset-env": "7.8.0"
-        },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
