@@ -26,7 +26,7 @@
         width: 0;
     }
     to {
-        width: 5em;
+        width: 5.1em;
     }
 }
 
@@ -53,6 +53,3 @@
 .jumbotron {
     background-color: black;
 }
-.flip-card:hover .flip-card-inner {
-    
-  }
